@@ -3,6 +3,27 @@
 What's new in |version|
 =======================
 
+This version contains numerous enhancements, component upgrades and bug fixes. Highlights include:
+
+* The version of Tomcat has been upgraded to 8.5 from 8.0.
+
+* Updated versions of GeoServer, GeoTools, and GeoWebCache.
+
+* GeoWebCache now has an expanded number of REST management endpoints
+
+* A minor version update for Spring to fix security vulnerabilities.
+
+* The :ref:`GeoServices REST API <intro.extensions.gsr>` extension has many improvements in compatibility with the 
+  latest official client API, including better support for filtered feature queries.
+
+What's new in 1.0.2
+=======================
+
+This version is version fixes an issue with cancelling GeoWebCache tasks through the web interface.
+
+What's new in 1.0.1
+=======================
+
 This version is a bugfix release, and includes various fixes for GeoWebCache and GeoServer:
 
 * Fixed errors in the GWC Seed endpoints.
